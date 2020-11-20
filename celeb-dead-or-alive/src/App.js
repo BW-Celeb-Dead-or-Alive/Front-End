@@ -3,7 +3,19 @@ import { Route, Link } from "react-router-dom";
 import './App.css';
 import CelebrityDeadOrAliveQuiz from "./components/CelebrityDeadOrAliveQuiz";
 import Score from "./components/Score";
-import Login from "./components/Login"
+import SignUp from './components/users/SignUp';
+import Login from "./components/Login";
+import styled from 'styled-components'
+
+const StyledNav = styled.nav`
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: darkgreen;
+ text-decoration: none;
+ color: white;
+`;
+
 function App() {
 
   const [playerScore, setPlayerScore] = useState(0)
@@ -23,13 +35,17 @@ function App() {
   return (
     <div className="App">
 
-      <nav>
+
+      <nav className="NavBar">
         <Link to="/quiz" onClick={() => {
           setPlayerScore(0)
           
           }}>Quiz   </Link>
         {/* just to have a place to get to the component for now */}
-        <Link to="/login">Login</Link>
+
+        <Link to="/login">Login   </Link>
+        <Link to="/signup">Sign Up</Link>
+
       </nav>
 
       
@@ -53,6 +69,9 @@ function App() {
              />
       <Route path="/login"
             render={(props) => <Login {...props} score={playerScore}/> }
+            />
+      <Route path="/signup"
+            render={(props) => <SignUp {...props} score={playerScore}/> }
             />
     </div>
   );
