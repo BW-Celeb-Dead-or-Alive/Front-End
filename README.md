@@ -13,37 +13,36 @@ Celebrity Dead or Alive is a quiz.  Can you guess the status of all
 Setup
 ---
 
-The following libraries were used for this webpage application:
+tech installed using yarn add
+*   axios
+*   react
+*   react-dom
+*   react-router-dom
+*   formik
+*   react-redux
+*   redux
+*   yup
+*   styled-components
+*   less
+
+Programs used to make the app
 
 *   Visual Studio Code
-*   Axios
-*   React
-*   React-dom
-*   React-router-dom
-*   Formik
-*   React-redux
-*   Redux
-*   Yup
-*   Styled-components
-*   Less
+
 
 
 
 Team
 ---
 
-All links will direct to each person's GitHub profile.
+*   **Caroline Stinger**, UI Developer [(GitHub)](https://github.com/kelpiy)
+*   **Raj Upadhyaya**, UI Developer [(GitHub)](https://github.com/rUpadhyayahacks)
+*   **David Tauraso**, FE Developer [(GitHub)](https://github.com/dtauraso)
+*   **Hunter Allan**, FE Developer [(GitHub)](https://github.com/Hunter5555)
+*   **Rebecca Joyner**, FE Developer [(GitHub)](https://github.com/rebeccajoyner)
+*   **Forrest Darabian**, BE Developer [(GitHub)](https://github.com/Forrestdarabian)
+*   **Levi Simpson**, Project Manager [(GitHub)](https://github.com/Levi-Huynh)
 
-
-*   **Caroline Stinger** - UI Developer [(GitHub)](https://github.com/kelpiy)
-*   **Raj Upadhyaya** - UI Developer [(GitHub)](https://github.com/rUpadhyayahacks)
-*   **David Tauraso** - FE Developer [(GitHub)](https://github.com/dtauraso)
-*   **Hunter Allan** - FE Developer [(GitHub)](https://github.com/Hunter5555)
-*   **Rebecca Joyner** - FE Developer [(GitHub)](https://github.com/rebeccajoyner)
-*   **Forrest Darabian** - BE Developer [(GitHub)](https://github.com/Forrestdarabian)
-*   **Levi Simpson** - Project Manager [(GitHub)](https://github.com/Levi-Huynh)
-
-How to contribute
 ---
 
 If you have styling suggestions, or extra info you think should be added to the app, feel free to make any changes:
